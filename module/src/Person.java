@@ -65,9 +65,6 @@ public class Person {
                 ", Возраст: " + age + '}';
     }
 
-    /**
-     * Данный метод позволяет получить год рождения объекта класса Person.
-     */
     public void getYear() {
         Calendar calendar = Calendar.getInstance();
         System.out.println("Год рождения человека: " + (calendar.get(Calendar.YEAR) - this.age));
